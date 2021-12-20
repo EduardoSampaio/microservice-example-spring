@@ -1,0 +1,8 @@
+spring.application.name=configuration-server
+server.port=8888
+spring.cloud.config.server.git.uri=git@github.com:EduardoSampaio/microservices-config-server.git
+spring.cloud.config.server.git.username=
+spring.cloud.config.server.git.password=
+
+spring.cloud.config.server.git.clone-on-start=true
+spring.cloud.config.server.git.host-key=ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICgcZU+kZQqlTUfwMO6zcZIKEGYBIP9xTmNZZdukXUUM edwardviana@gmail.com

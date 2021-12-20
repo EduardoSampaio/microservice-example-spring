@@ -1,0 +1,16 @@
+INDEX VERSION 1.131+C:\Users\edwar\Documents\workspace-spring-tool-suite\course-microservice\.metadata\.plugins\org.eclipse.jdt.core
+3983562705.index
+1541477504.index
+2022901756.index
+2359363393.index
+457293850.index
+2967204802.index
+715374721.index
+96097252.index
+79805565.index
+3058928333.index
+2317501585.index
+3120250875.index
+3647549196.index
+999450188.index
+391788475.index

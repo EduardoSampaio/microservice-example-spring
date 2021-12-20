@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.springframework.ide.eclipse.boot.launch">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/configuration-server/src/main/java/com/microservice/configuration/server/ConfigurationServerApplication.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <mapAttribute key="org.eclipse.debug.core.environmentVariables">
+        <mapEntry key="PASSWORD_GIT" value="@Dudu2236"/>
+        <mapEntry key="PRIVATE_KEY" value="-----BEGIN OPENSSH PRIVATE KEY-----&#10;b3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABBuuyGrHo&#10;PifmerH0CEpxDxAAAAEAAAAAEAAAAzAAAAC3NzaC1lZDI1NTE5AAAAICgcZU+kZQqlTUfw&#10;MO6zcZIKEGYBIP9xTmNZZdukXUUMAAAAoBumSo29/VFrPLCNZS2vfYzrtRwGJsQd/Cz3eC&#10;uWjXmt5V3LJDc4A/v11JjphgzEAOuHgMbKkvAvvIRriqHargNdHZFv38yFGkgZAkJ/Zqrm&#10;IvwxZJl6x0xbWBrsEf4Lu3KtEsbaoXlrCfjoptQruRyLD0fE4Nqj9CF0yNmbToRqtnBYVn&#10;v1jvFSSs7ipI/mHpnZuHciS7q3Da3hyhHdiFQ=&#10;-----END OPENSSH PRIVATE KEY-----&#10;"/>
+        <mapEntry key="SSH_KEY" value="ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICgcZU+kZQqlTUfwMO6zcZIKEGYBIP9xTmNZZdukXUUM edwardviana@gmail.com"/>
+        <mapEntry key="SSH_URL" value="git@github.com:EduardoSampaio/microservices-config-server"/>
+        <mapEntry key="URL_GIT" value="https://github.com/EduardoSampaio/microservices-config-server"/>
+        <mapEntry key="USERNAME_GIT" value="edwardviana@gmail.com"/>
+    </mapAttribute>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_SHOW_CODEDETAILS_IN_EXCEPTION_MESSAGES" value="true"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_CLASSPATH_ONLY_JAR" value="false"/>
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.springframework.ide.eclipse.boot.launch.BootMavenClassPathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.microservice.configuration.server.ConfigurationServerApplication"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="configuration-server"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.springframework.ide.eclipse.boot.launch.BootMavenSourcePathProvider"/>
+    <stringAttribute key="process_factory_id" value="org.springframework.ide.eclipse.boot.launch.process.BootProcessFactory"/>
+    <booleanAttribute key="spring.boot.ansi.console" value="true"/>
+    <stringAttribute key="spring.boot.app.properties" value=""/>
+    <booleanAttribute key="spring.boot.dash.hidden" value="false"/>
+    <booleanAttribute key="spring.boot.debug.enable" value="false"/>
+    <booleanAttribute key="spring.boot.fast.startup" value="true"/>
+    <booleanAttribute key="spring.boot.jmx.enable" value="true"/>
+    <booleanAttribute key="spring.boot.lifecycle.enable" value="true"/>
+    <stringAttribute key="spring.boot.lifecycle.termination.timeout" value="15000"/>
+    <booleanAttribute key="spring.boot.livebean.enable" value="false"/>
+    <stringAttribute key="spring.boot.livebean.port" value="0"/>
+    <stringAttribute key="spring.boot.profile" value=""/>
+</launchConfiguration>
