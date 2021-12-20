@@ -1,4 +1,4 @@
-package com.microservice.product;
+package com.microservice.product.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
