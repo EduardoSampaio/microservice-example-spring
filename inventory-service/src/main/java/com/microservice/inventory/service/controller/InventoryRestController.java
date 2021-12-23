@@ -1,4 +1,4 @@
-package com.microservice.inventory.service;
+package com.microservice.inventory.service.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
