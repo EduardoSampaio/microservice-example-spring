@@ -6766,3 +6766,848 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.eclipse.ui 2 2 2021-12-22 20:24:42.470
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2021-12-23 08:43:35.814 -----------------------------------------------
+eclipse.buildId=4.11.1.202108151956
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-12-23 08:43:46.929
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-12-23 08:43:46.929
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3c20e9d6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@76e2a621,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:51.106
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:51.106
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2aa85cc4[org.springframework.tooling.boot.ls:1.27.0.202108151936(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:51.116
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:51.272
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.jface 2 0 2021-12-23 08:43:51.784
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-12-23 08:43:51.784
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7f9083b4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@40f40221,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-12-23 08:43:52.268
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\edwar'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:55.383
+!MESSAGE Boot LS startup time from start to initialized: 4260ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:55.455
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HabyaEJKisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:55.457
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:55.459
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:55.460
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:55.460
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:55.461
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HabyaEJK => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:57.187
+!MESSAGE classpath=149 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:57.193
+!MESSAGE buffering callback sts4.classpath.HabyaEJK api-gateway-service false 149
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:57.193
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:57.199
+!MESSAGE classpath=95 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:57.203
+!MESSAGE buffering callback sts4.classpath.HabyaEJK configuration-server false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:57.203
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:57.210
+!MESSAGE classpath=130 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:57.214
+!MESSAGE buffering callback sts4.classpath.HabyaEJK discovery-server false 130
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:57.214
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:57.222
+!MESSAGE classpath=157 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:57.226
+!MESSAGE buffering callback sts4.classpath.HabyaEJK inventory-service false 157
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:57.227
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:57.235
+!MESSAGE classpath=191 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:57.241
+!MESSAGE buffering callback sts4.classpath.HabyaEJK order-service false 191
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:57.241
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:57.248
+!MESSAGE classpath=195 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:57.254
+!MESSAGE buffering callback sts4.classpath.HabyaEJK product-service false 195
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:57.254
+!MESSAGE executing callback sts4.classpath.HabyaEJK 6 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 08:43:59.274
+!MESSAGE executing callback sts4.classpath.HabyaEJK FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-12-23 08:43:59.274
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY Activator 2 0 2021-12-23 09:02:24.789
+!MESSAGE Exception: File not found: C:\Users\edwar\Documents\workspace-spring-tool-suite\course-microservice\inventory-service\src\main\java\com\microservice\inventory\service\InventoryRestController.java.
+!STACK 1
+Java Model Exception: Core Exception [code 368] File not found: C:\Users\edwar\Documents\workspace-spring-tool-suite\course-microservice\inventory-service\src\main\java\com\microservice\inventory\service\InventoryRestController.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1214)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:327)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:313)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:282)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:969)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:635)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: C:\Users\edwar\Documents\workspace-spring-tool-suite\course-microservice\inventory-service\src\main\java\com\microservice\inventory\service\InventoryRestController.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	... 26 more
+Caused by: java.lang.Exception: File not found: C:\Users\edwar\Documents\workspace-spring-tool-suite\course-microservice\inventory-service\src\main\java\com\microservice\inventory\service\InventoryRestController.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 29 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/inventory-service/src/main/java/com/microservice/inventory/service/InventoryRestController.java)[368]: java.lang.Exception: File not found: C:\Users\edwar\Documents\workspace-spring-tool-suite\course-microservice\inventory-service\src\main\java\com\microservice\inventory\service\InventoryRestController.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:327)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:313)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:282)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:969)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:635)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2021-12-23 09:02:24.789
+!MESSAGE File not found: C:\Users\edwar\Documents\workspace-spring-tool-suite\course-microservice\inventory-service\src\main\java\com\microservice\inventory\service\InventoryRestController.java.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/inventory-service/src/main/java/com/microservice/inventory/service/InventoryRestController.java)[368]: java.lang.Exception: File not found: C:\Users\edwar\Documents\workspace-spring-tool-suite\course-microservice\inventory-service\src\main\java\com\microservice\inventory\service\InventoryRestController.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:327)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:313)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:282)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:969)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:635)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2021-12-23 09:02:24.790
+!MESSAGE File not found: C:\Users\edwar\Documents\workspace-spring-tool-suite\course-microservice\inventory-service\src\main\java\com\microservice\inventory\service\InventoryRestController.java.
+!STACK 0
+java.lang.Exception: File not found: C:\Users\edwar\Documents\workspace-spring-tool-suite\course-microservice\inventory-service\src\main\java\com\microservice\inventory\service\InventoryRestController.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:327)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:313)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:282)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:969)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:635)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:148)
+	at org.springframework.ide.eclipse.boot.validation.rules.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:249)
+	at org.springframework.ide.eclipse.boot.validation.framework.SpringBootProjectBuilder.build(SpringBootProjectBuilder.java:100)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 09:02:31.531
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 09:02:31.538
+!MESSAGE classpath=202 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 09:02:31.545
+!MESSAGE buffering callback sts4.classpath.HabyaEJK inventory-service false 202
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 09:02:31.545
+!MESSAGE executing callback sts4.classpath.HabyaEJK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 09:02:31.631
+!MESSAGE executing callback sts4.classpath.HabyaEJK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 09:02:37.088
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 09:02:37.096
+!MESSAGE classpath=218 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 09:02:37.103
+!MESSAGE buffering callback sts4.classpath.HabyaEJK order-service false 218
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 09:02:37.103
+!MESSAGE executing callback sts4.classpath.HabyaEJK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 09:02:37.129
+!MESSAGE executing callback sts4.classpath.HabyaEJK SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-12-23 09:02:39.221
+!MESSAGE Could not download sources for org.springframework.cloud:spring-cloud-starter-openfeign:3.1.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-openfeign:jar:sources:3.1.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-openfeign:jar:sources:3.1.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2021-12-23 09:02:39.221
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-openfeign:jar:sources:3.1.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2021-12-23 09:02:39.221
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-openfeign:jar:sources:3.1.0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 09:02:42.036
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 09:02:42.041
+!MESSAGE classpath=218 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 09:02:42.047
+!MESSAGE buffering callback sts4.classpath.HabyaEJK order-service false 218
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 09:02:42.047
+!MESSAGE executing callback sts4.classpath.HabyaEJK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 09:02:42.068
+!MESSAGE executing callback sts4.classpath.HabyaEJK SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-12-23 09:02:43.470
+!MESSAGE Could not download javadoc for org.springframework.cloud:spring-cloud-starter-openfeign:3.1.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-openfeign:jar:javadoc:3.1.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-openfeign:jar:javadoc:3.1.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2021-12-23 09:02:43.470
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-openfeign:jar:javadoc:3.1.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2021-12-23 09:02:43.470
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-openfeign:jar:javadoc:3.1.0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 13:38:52.089
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.HabyaEJK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 13:38:52.089
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.HabyaEJK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 13:38:52.090
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-23 13:38:52.090
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.HabyaEJK => OK
+
+!ENTRY org.eclipse.ui 2 2 2021-12-23 13:38:52.758
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2021-12-26 12:37:28.571 -----------------------------------------------
+eclipse.buildId=4.11.1.202108151956
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-12-26 12:37:39.541
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-12-26 12:37:39.541
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@29dfc68f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@320ba79f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:43.959
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:43.960
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2a1fce44[org.springframework.tooling.boot.ls:1.27.0.202108151936(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:43.968
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:44.111
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-12-26 12:37:44.826
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\edwar'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:48.425
+!MESSAGE Boot LS startup time from start to initialized: 4448ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:48.503
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.FWHYejdaisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:48.505
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:48.507
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:48.508
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:48.508
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:48.509
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.FWHYejda => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:49.705
+!MESSAGE classpath=149 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:49.721
+!MESSAGE buffering callback sts4.classpath.FWHYejda api-gateway-service false 149
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:49.722
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:49.727
+!MESSAGE classpath=95 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:49.731
+!MESSAGE buffering callback sts4.classpath.FWHYejda configuration-server false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:49.731
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:49.736
+!MESSAGE classpath=130 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:49.741
+!MESSAGE buffering callback sts4.classpath.FWHYejda discovery-server false 130
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:49.741
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:49.752
+!MESSAGE classpath=202 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:49.761
+!MESSAGE buffering callback sts4.classpath.FWHYejda inventory-service false 202
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:49.762
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:49.771
+!MESSAGE classpath=218 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:49.779
+!MESSAGE buffering callback sts4.classpath.FWHYejda order-service false 218
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:49.779
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:49.786
+!MESSAGE classpath=195 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:49.791
+!MESSAGE buffering callback sts4.classpath.FWHYejda product-service false 195
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:49.792
+!MESSAGE executing callback sts4.classpath.FWHYejda 6 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:37:51.807
+!MESSAGE executing callback sts4.classpath.FWHYejda FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-12-26 12:37:51.807
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:38:57.894
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.FWHYejda
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:38:57.895
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.FWHYejda
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:38:57.895
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 12:38:57.896
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.FWHYejda => OK
+
+!ENTRY org.eclipse.ui 2 2 2021-12-26 12:38:58.415
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2021-12-26 14:22:32.586 -----------------------------------------------
+eclipse.buildId=4.11.1.202108151956
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-12-26 14:22:35.572
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-12-26 14:22:35.572
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@30cb223b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@24d0c6a4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:38.548
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:38.549
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@466fd19b[org.springframework.tooling.boot.ls:1.27.0.202108151936(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:38.552
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:38.588
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-12-26 14:22:39.362
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\edwar'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:40.310
+!MESSAGE Boot LS startup time from start to initialized: 1750ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:40.399
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.DYSHJWRjisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:40.402
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:40.404
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:40.405
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:40.405
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.DYSHJWRj => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:40.406
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:41.809
+!MESSAGE classpath=149 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:41.814
+!MESSAGE buffering callback sts4.classpath.DYSHJWRj api-gateway-service false 149
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:41.815
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:41.821
+!MESSAGE classpath=95 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:41.823
+!MESSAGE buffering callback sts4.classpath.DYSHJWRj configuration-server false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:41.824
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:41.832
+!MESSAGE classpath=130 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:41.837
+!MESSAGE buffering callback sts4.classpath.DYSHJWRj discovery-server false 130
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:41.837
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:41.848
+!MESSAGE classpath=202 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:41.855
+!MESSAGE buffering callback sts4.classpath.DYSHJWRj inventory-service false 202
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:41.855
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:41.866
+!MESSAGE classpath=218 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:41.873
+!MESSAGE buffering callback sts4.classpath.DYSHJWRj order-service false 218
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:41.874
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:41.883
+!MESSAGE classpath=195 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:41.889
+!MESSAGE buffering callback sts4.classpath.DYSHJWRj product-service false 195
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:41.889
+!MESSAGE executing callback sts4.classpath.DYSHJWRj 6 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:22:42.331
+!MESSAGE executing callback sts4.classpath.DYSHJWRj SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:33:50.845
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.DYSHJWRj
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:33:50.845
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.DYSHJWRj
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:33:50.846
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:33:50.846
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.DYSHJWRj => OK
+
+!ENTRY org.eclipse.ui 2 2 2021-12-26 14:33:51.212
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2021-12-26 14:33:52.627 -----------------------------------------------
+eclipse.buildId=4.11.1.202108151956
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data file:/C:/Users/edwar/Documents/workspace-spring-tool-suite/course-microservice/ -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-12-26 14:33:56.517
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-12-26 14:33:56.517
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@42ebece0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@15c4b1a4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:33:59.299
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:33:59.299
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@484d828c[org.springframework.tooling.boot.ls:1.27.0.202108151936(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:33:59.303
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:33:59.334
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-12-26 14:33:59.954
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\edwar'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:01.092
+!MESSAGE Boot LS startup time from start to initialized: 1778ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:01.187
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.XrMoWZZlisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:01.190
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:01.193
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:01.193
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:01.194
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.XrMoWZZl => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:01.196
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:02.133
+!MESSAGE classpath=149 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:02.139
+!MESSAGE buffering callback sts4.classpath.XrMoWZZl api-gateway-service false 149
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:02.140
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:02.145
+!MESSAGE classpath=95 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:02.148
+!MESSAGE buffering callback sts4.classpath.XrMoWZZl configuration-server false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:02.149
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:02.154
+!MESSAGE classpath=130 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:02.158
+!MESSAGE buffering callback sts4.classpath.XrMoWZZl discovery-server false 130
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:02.159
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:02.166
+!MESSAGE classpath=202 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:02.172
+!MESSAGE buffering callback sts4.classpath.XrMoWZZl inventory-service false 202
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:02.172
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:02.181
+!MESSAGE classpath=218 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:02.188
+!MESSAGE buffering callback sts4.classpath.XrMoWZZl order-service false 218
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:02.188
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:02.196
+!MESSAGE classpath=195 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:02.202
+!MESSAGE buffering callback sts4.classpath.XrMoWZZl product-service false 195
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:02.202
+!MESSAGE executing callback sts4.classpath.XrMoWZZl 6 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:02.648
+!MESSAGE executing callback sts4.classpath.XrMoWZZl SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:48.569
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.XrMoWZZl
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:48.570
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.XrMoWZZl
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:48.570
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-26 14:34:48.570
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.XrMoWZZl => OK
+
+!ENTRY org.eclipse.ui 2 2 2021-12-26 14:34:48.944
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
